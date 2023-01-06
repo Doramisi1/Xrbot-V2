@@ -42,43 +42,44 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6288232154376', 'AbiDev', true],//
-['62882016155766', '𝙭𝙧𝙗𝙤𝙩', true]
+['6283849469400', 'ega-ganteng', true],//
+['6283802603905', 'ega-bisnis', true],//
+['6288232154376', 'AbiDev', true] // Jangan Du Hapus Nanti eror 
 ]
 global.mods = []
-global.prems = []
-global.nomorbot = '62882016155766'
-global.nomorown = '6288232154376'
-global.nomorownv2 = '62882016155766'
-global.nomorown1 = '6288232154376'
-global.nomorown2 = '62882016155766'
+global.prems = ['6283849469400','6283802603905']
+global.nomorbot = '628388986298'
+global.nomorown = '6283849469400'
+global.nomorownv2 = '6283802603905'
+global.nomorown1 = '6283849469400'
+global.nomorown2 = '6283802603905'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.gcname = '𝑺𝒊𝒎𝒑𝒍𝒆 𝑩𝒐𝒕 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 𝑩𝒚 𝘼𝙗𝙞𝘿𝙚𝙫'//nama group kalian
-global.author = 'AbiDev'
-global.namebot = '𝙭𝙧𝙗𝙤𝙩'
-global.wm = '𝙭𝙧𝙗𝙤𝙩'
+global.gcname = 'ghost-bot-offc'//nama group kalian
+global.author = 'ega X AbiDev'
+global.namebot = 'sky-bot X ghost-bot-V2'
+global.wm = 'sky-bot X ghost-bot-V2, jangan di maling'
 global.media = 'https://telegra.ph/file/b9c38c34238271d29e86e.jpg'
 global.watermark = wm
 global.status = 'public'
 global.danied = '          ⚠️ 𝐀𝐜𝐜𝐞𝐬 𝐃𝐚𝐧𝐢𝐞𝐝 ⚠️  '
-global.wame = 'https://wa.me/6288232154376'
+global.wame = 'https://wa.me/6283849469400'
 global.alllink = `https://youtube.com`
-global.wm2 = ' 𝙭𝙧𝙗𝙤𝙩 '
+global.wm2 = ' dosa lo kalau maling '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ TIME: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `𝙭𝙧𝙗𝙤𝙩`
+global.titlebot = `sky-bot X ghost-bot-V2`
 global.stickpack = 'Created by: '
-global.stickauth = `© 𝙭𝙧𝙗𝙤𝙩`
+global.stickauth = `© sky-bot X ghost-bot-V2,awas di maling`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= '#𝐗𝐑𝐚𝐳'
-global.nameown2 = '𝙭𝙧𝙗𝙤𝙩'
+global.nameown1= '#ega'
+global.nameown2 = 'ega-bisnis'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = '-'
@@ -86,16 +87,16 @@ global.lynk = '-'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sig = 'https://instagram.com/abityru'//Instagram klian
-global.sgh = 'https://github.com/AbiDev11' //github
-global.tautanwa = 'https://wa.me/6288232154376'
-global.sgc = 'https://chat.whatsapp.com/BKi5RCs2EHaG2g0e2bJ72r' //group whatsapp
+global.sgh = 'https://github.com/Doramisi1' //github
+global.tautanwa = 'https://wa.me/6283849469400'
+global.sgc = 'https://chat.whatsapp.com/https://JEQc02Qcozq04TwDxswbRQ' //group whatsapp
 global.syt = '-' //youtube
 global.sytv = 'https://youtu.be/lN-0jnuK2'//link video yt
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '0888232154376'
+global.pdana = '6283849469400'
 global.povo = '-'
-global.pgopay = '0888232154376'
+global.pgopay = '6283849469400'
 global.plinkaja = '-' //link aja
 global.ppulsa = '-'
 global.ppulsa2 = '-'
@@ -137,9 +138,9 @@ global.eror = 'Mohon Maaf Server Kami Sedang Error!'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND GEME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.benar = '𝙶𝚘𝚘𝚍 𝙹𝚘𝚋𝚋! ◕◡◕'
-global.salah = '𝙽𝚘𝚝 𝙱𝚊𝚍! ◕◠◕'
-global.dikit = "𝙳𝚒𝚔𝚒𝚝 𝙻𝚊𝚐𝚒,𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝!!"
+global.benar = 'jawaban kamu benar! ◕◡◕'
+global.salah = 'jawaban kamu salah! ◕◠◕'
+global.dikit = "ayok coba lagi,udah hampir benar!!"
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RPG GAME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -321,7 +322,7 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.urlnya = "https://www.instagram.com/abityru24"
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '0882 3215 4376'
+global.phn = '0838 4946 9400'
 
 function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
