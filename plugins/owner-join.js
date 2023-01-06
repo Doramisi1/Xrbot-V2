@@ -10,10 +10,10 @@ let handler = async (m, { conn, text, isOwner }) => {
     if (!chats) chats = global.db.data.chats[res] = {}
     if (expired) chats.expired = +new Date() + expired * 1000 * 60 * 60 * 24
 }
-handler.help = ['joinsewa <chat.whatsapp.com>','joingcs <chat.whatsapp.com>']
+handler.help = ['join <chat.whatsapp.com>']
 handler.tags = ['owner']
 
-handler.command = /^joinsewa|joingcs$/i
+handler.command = /^join$/i
 handler.rowner = true
 
 export default handler
