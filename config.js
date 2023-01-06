@@ -216,10 +216,9 @@ global.rpg = {
   }
 }
 
-
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WEBSITE APIKEY ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.zenzkey = 'b8040941f7'
-global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e6b
+global.lolkey = 'f48860d8753901c5c28740dd' // PUNYA WAHID 357d3c85079c4e0818731e6b
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -248,7 +247,7 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'ebb6251cc00f9c63',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': '8e66d0934cf741bfd2182c16',// 8e66d0934cf741bfd2182c16
+  'https://api.lolhuman.xyz': 'e54205a4ca2caa368cc067bb',// 8e66d0934cf741bfd2182c16
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -260,7 +259,7 @@ global.APIKeys = { // APIKey Here
   'https://violetics.pw': 'beta',
   'https://ziy.herokuapp.com' : 'xZiyy'
 }
-//⳹ NOTE !! EXAMPLE ➢ 'https://WebsiteApi': 'Apikey'
+//⳹ NOTE !! EXAMPLE ➢ 'https://WebsiteApi': 'Apikey'//WebsiteApi': 'Apikey'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OTHER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
