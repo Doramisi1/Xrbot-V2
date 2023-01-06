@@ -127,7 +127,7 @@ const config = {
 handler.help = ['jadibot']
 handler.tags = ['jadibot']
 handler.command = /^jadibot$/i
-handler.private = true
-handler.premium = true
+handler.private = false
+handler.premium = false
 handler.group = false
 export default handler
