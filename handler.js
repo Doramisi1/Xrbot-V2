@@ -49,9 +49,9 @@ export async function handler(chatUpdate) {
                 global.db.data.users[m.sender] = {}
             if (user) {
                 if (!isNumber(user.exp))
-                    user.exp = 0
+                    user.exp = 1000
                 if (!isNumber(user.limit))
-                    user.limit = 100
+                    user.limit = 1000
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!isNumber(user.pasangan))
@@ -75,105 +75,105 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.warn))
                     user.warn = 0
                 if (!isNumber(user.level))
-                    user.level = 0
+                    user.level = 30
                 if (!('role' in user))
                     user.role = 'Beginner'
                 if (!('autolevelup' in user))
                     user.autolevelup = true
 
                 if (!isNumber(user.money))
-                    user.money = 0
+                    user.money = 100000
                 if (!isNumber(user.atm))
-                    user.atm = 0
+                    user.atm = 100000
                 if (!isNumber(user.fullatm))
-                    user.fullatm = 0
+                    user.fullatm = 100000
                 if (!isNumber(user.bank))
-                    user.bank = 0
+                    user.bank = 10000
                 if (!isNumber(user.health))
-                    user.health = 100
+                    user.health = 200
                 if (!isNumber(user.potion))
-                    user.potion = 0
+                    user.potion = 10
                 if (!isNumber(user.trash))
-                    user.trash = 0
+                    user.trash = 10
                 if (!isNumber(user.wood))
-                    user.wood = 0
+                    user.wood = 10
                 if (!isNumber(user.rock))
-                    user.rock = 0
+                    user.rock = 10
                 if (!isNumber(user.string))
-                    user.string = 0
+                    user.string = 10
                 if (!isNumber(user.petFood))
-                    user.petFood = 0
+                    user.petFood = 10
 
                 if (!isNumber(user.emerald))
-                    user.emerald = 0
+                    user.emerald = 10
                 if (!isNumber(user.diamond))
-                    user.diamond = 0
+                    user.diamond = 10
                 if (!isNumber(user.gold))
-                    user.gold = 0
+                    user.gold = 10
                 if (!isNumber(user.iron))
-                    user.iron = 0
+                    user.iron = 10
                 if (!isNumber(user.upgrader))
                     user.upgrader = 0
 
                 if (!isNumber(user.common))
-                    user.common = 0
+                    user.common = 10
                 if (!isNumber(user.uncommon))
-                    user.uncommon = 0
+                    user.uncommon = 10
                 if (!isNumber(user.mythic))
-                    user.mythic = 0
+                    user.mythic = 10
                 if (!isNumber(user.legendary))
-                    user.legendary = 0
+                    user.legendary = 10
                 if (!isNumber(user.superior))
-                    user.superior = 0
+                    user.superior = 10
                 if (!isNumber(user.pet))
-                    user.pet = 0
+                    user.pet = 10
 
                 if (!isNumber(user.horse))
-                    user.horse = 0
+                    user.horse = 10
                 if (!isNumber(user.horseexp))
-                    user.horseexp = 0
+                    user.horseexp = 100
                 if (!isNumber(user.cat))
-                    user.cat = 0
+                    user.cat = 10
                 if (!isNumber(user.catexp))
-                    user.catexp = 0
+                    user.catexp = 100
                 if (!isNumber(user.fox))
-                    user.fox = 0
+                    user.fox = 10
                 if (!isNumber(user.foxhexp))
-                    user.foxexp = 0
+                    user.foxexp = 100
                 if (!isNumber(user.dog))
-                    user.dog = 0
+                    user.dog = 10
                 if (!isNumber(user.dogexp))
-                    user.dogexp = 0
+                    user.dogexp = 100
                 if (!isNumber(user.robo))
-                    user.robo = 0
+                    user.robo = 10
                 if (!isNumber(user.roboxp))
-                    user.roboxp = 0
+                    user.roboxp = 100
 
                 if (!isNumber(user.horselastfeed))
-                    user.horselastfeed = 0
+                    user.horselastfeed = 10
                 if (!isNumber(user.catlastfeed))
-                    user.catlastfeed = 0
+                    user.catlastfeed = 10
                 if (!isNumber(user.foxlastfeed))
-                    user.foxlastfeed = 0
+                    user.foxlastfeed = 10
                 if (!isNumber(user.doglastfeed))
-                    user.doglastfeed = 0
+                    user.doglastfeed = 10
 
                 if (!isNumber(user.armor))
-                    user.armor = 0
+                    user.armor = 10
                 if (!isNumber(user.armordurability))
-                    user.armordurability = 0
+                    user.armordurability = 10
                 if (!isNumber(user.sword))
-                    user.sword = 0
+                    user.sword = 10
                 if (!isNumber(user.sworddurability))
-                    user.sworddurability = 0
+                    user.sworddurability = 10
                 if (!isNumber(user.pickaxe))
-                    user.pickaxe = 0
+                    user.pickaxe = 10
                 if (!isNumber(user.pickaxedurability))
-                    user.pickaxedurability = 0
+                    user.pickaxedurability = 10
                 if (!isNumber(user.fishingrod))
-                    user.fishingrod = 0
+                    user.fishingrod = 10
                 if (!isNumber(user.fishingroddurability))
-                    user.fishingroddurability = 0
+                    user.fishingroddurability = 10
 
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
@@ -203,11 +203,11 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.premiumTime))
                     user.premiumTime = 0
                 if (!isNumber(user.limitjoin))
-                    user.limitjoin = 0
+                    user.limitjoin = 100
             } else
                 global.db.data.users[m.sender] = {
-                    exp: 0,
-                    limit: 100,
+                    exp: 1000,
+                    limit: 1000,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
@@ -218,46 +218,46 @@ export async function handler(chatUpdate) {
                     afkReason: '',
                     banned: false,
                     warn: 0,
-                    level: 0,
+                    level: 20,
                     role: 'Beginner',
                     autolevelup: true,
-                    money: 0,
-                    bank: 0,
-                    atm: 0,
-                    fullatm: 0,
-                    health: 100,
+                    money: 100000,
+                    bank: 100000,
+                    atm: 100000,
+                    fullatm: 100000,
+                    health: 200,
                     potion: 10,
-                    trash: 0,
-                    wood: 0,
-                    rock: 0,
-                    string: 0,
+                    trash: 10,
+                    wood: 10,
+                    rock: 10,
+                    string: 10,
 
-                    emerald: 0,
-                    diamond: 0,
-                    gold: 0,
-                    iron: 0,
-                    upgrader: 0,
+                    emerald: 10,
+                    diamond: 10,
+                    gold: 10,
+                    iron: 10,
+                    upgrader: 10,
 
-                    common: 0,
-                    uncommon: 0,
-                    mythic: 0,
-                    legendary: 0,
-                    superior: 0,
-                    pet: 0,
+                    common: 10,
+                    uncommon: 10,
+                    mythic: 10,
+                    legendary: 10,
+                    superior: 10,
+                    pet: 10,
 
-                    horse: 0,
-                    horseexp: 0,
-                    cat: 0,
-                    catngexp: 0,
-                    fox: 0,
-                    foxexp: 0,
-                    dog: 0,
-                    dogexp: 0,
+                    horse: 10,
+                    horseexp: 100,
+                    cat: 10,
+                    catngexp: 100,
+                    fox: 10,
+                    foxexp: 100,
+                    dog: 10,
+                    dogexp: 100,
 
-                    horselastfeed: 0,
-                    catlastfeed: 0,
-                    foxlastfeed: 0,
-                    doglastfeed: 0,
+                    horselastfeed: 10,
+                    catlastfeed: 10,
+                    foxlastfeed: 10,
+                    doglastfeed: 10,
 
                     armor: 0,
                     armordurability: 0,
